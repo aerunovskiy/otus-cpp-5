@@ -7,6 +7,4 @@ if ( NOT VIEW_INCLUDED )
 
     include_directories( ${CMAKE_CURRENT_LIST_DIR} )
 
-    #    set( VIEW ${CMAKE_CURRENT_LIST_DIR}/view.cpp )
-
 endif()

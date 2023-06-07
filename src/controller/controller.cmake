@@ -7,6 +7,4 @@ if ( NOT CONTROLLER_INCLUDED )
 
     include_directories( ${CMAKE_CURRENT_LIST_DIR} )
 
-#    set( CONTROLLER ${CMAKE_CURRENT_LIST_DIR}/model.cpp )
-
 endif()

@@ -41,3 +41,19 @@ jobs:
           asset_path: ./editor
           asset_name: editor
           asset_content_type: application/vnd.debian.binary-package
+
+      - name: Doxygen Action
+        uses: mattnotmitt/doxygen-action@v1.3.1
+        with:
+          doxyfile-path: ./doc/Doxyfile
+          working-directory: ./doc/
+
+      - name: GitHub Pages Deployment
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./doc/html/
+          enable_jekyll: false
+          allow_empty_commit: false
+          force_orphan: true
+          publish_branch: gh-pages
