@@ -49,7 +49,7 @@ jobs:
         uses: mattnotmitt/doxygen-action@v1.3.1
         with:
           doxyfile-path: ./doc/Doxyfile
-          working-directory: ./doc/
+          working-directory: .
 
       - name: GitHub Pages Deployment
         uses: peaceiris/actions-gh-pages@v3
