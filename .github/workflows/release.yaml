@@ -41,11 +41,6 @@ jobs:
           asset_path: ./editor
           asset_name: editor
           asset_content_type: application/vnd.debian.binary-package
-          
-      - name: Check path
-        run: pwd
-      - run: ls
-      - run: ls ..
 
       - name: Doxygen Action
         uses: mattnotmitt/doxygen-action@v1.3.1
