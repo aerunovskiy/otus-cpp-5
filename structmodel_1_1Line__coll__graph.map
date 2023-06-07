@@ -1,0 +1,4 @@
+<map id="model::Line" name="model::Line">
+<area shape="rect" id="node1" title="Line shape." alt="" coords="11,80,99,107"/>
+<area shape="rect" id="node2" href="$structmodel_1_1Shape.html" title="All shapes parent class." alt="" coords="5,5,105,32"/>
+</map>

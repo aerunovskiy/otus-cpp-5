@@ -1,0 +1,6 @@
+<map id="model::Shape" name="model::Shape">
+<area shape="rect" id="node1" title="All shapes parent class." alt="" coords="125,5,225,32"/>
+<area shape="rect" id="node2" href="$structmodel_1_1Ellipse.html" title="Ellipse shape." alt="" coords="5,80,107,107"/>
+<area shape="rect" id="node3" href="$structmodel_1_1Line.html" title="Line shape." alt="" coords="131,80,219,107"/>
+<area shape="rect" id="node4" href="$structmodel_1_1Rectangle.html" title="Rectangle shape." alt="" coords="243,80,365,107"/>
+</map>
