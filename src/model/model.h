@@ -10,8 +10,8 @@
 
 #include <iostream>
 #include <memory>
-#include <string>
 #include <map>
+#include <string>
 
 #include "window_interface.h"
 
